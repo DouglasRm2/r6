@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./conteudo.component.css']
 })
 export class ConteudoComponent {
-
+  
 }

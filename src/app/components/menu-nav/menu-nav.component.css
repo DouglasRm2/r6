@@ -8,61 +8,79 @@
     justify-content: center;
     align-items: center;
 
+
 }
 .menu{
     display: flex;
     justify-content: space-between;
     border-radius: 8px;
     border: 1px solid rgb(223, 245, 223);
-  
+       
     height: 70px;
     width: 90vw;
 }
 
-
-
 .logo{
     border-radius: 10px;
     display: flex;
+    
  align-items: center;
 }
 
 .logo > img{
-   
+
     margin: 0px 0px 0px 90px;
     
         height: 70px;
         width: 70px;
 }
-
+.class__menu_pages {
+    display: flex;
+    
+}
 .class__menu_pages > ul{
-
+    gap: 10rem;
     display: flex;
  
 }.class__menu_pages > ul > li{
+   
  display: flex;
  align-items: center;
- color: rgb(188, 195, 201);
+ color: rgb(255, 255, 255);
 }
+
+
+
+
 
 .redes_sociais{
-    
-    border-radius: 0px 60px 60px 0px ;
+
    display: flex;
-   
+
+
 }
 .redes_sociais ul{
- 
-    width: 70px;
-
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    width: 290px;
 }
 
 .redes_sociais ul > li{
-    background-color: rgb(180, 17, 17);
-  
-
-  border-radius: 0px 60px 60px 0px ;
+   margin: 0px 0px 0px 0px;
     display: flex;
     align-items: center;
-    color: rgb(188, 195, 201);
+    color: rgb(255, 255, 255);
+}
+
+.redes_sociais .instagram img{
+        height: 52px;
+    width:57px;
+
+}.redes_sociais .facebook img{
+    height: 45px;
+    width: 45px;
+}.redes_sociais .youtuber img{
+    height: 45px;
+    width: 45px;
 }
